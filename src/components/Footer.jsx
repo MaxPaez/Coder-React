@@ -1,9 +1,12 @@
-import React from 'react';
+import React from "react";
 
-const Footer = () => {
-    React.memo()
-    return <p>Hola Footer</p>;
+export default function Footer() {
+  return (
+    <div>
+      <div>Footer</div>
+      <div>Footer</div>
+      <div>Footer</div>
+      <div>Footer</div>
+    </div>
+  );
 }
-
-export default Footer;
-
