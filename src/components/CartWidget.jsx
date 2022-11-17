@@ -1,6 +1,6 @@
-import React from "react";
-import { FaShoppingCart } from "react-icons/fa";
-import Stack from "react-bootstrap/Stack";
+import React from 'react';
+import { FaShoppingCart } from 'react-icons/fa';
+import Stack from 'react-bootstrap/Stack';
 
 export default function CartWidget() {
   return (
@@ -8,7 +8,6 @@ export default function CartWidget() {
       <div>
         <FaShoppingCart />
       </div>
-
       <p className="m-0">4</p>
     </Stack>
   );
