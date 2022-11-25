@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import ListadoDeProductosLayout from './components/ListadoDeProductosLayout';
 import NavBar from './components/NavBar';
 import Producto from './components/Producto';
+import Promesas from './test_components/Promesas';
 
 function App() {
   let producto1 = { id: 100, name: 'Zapatilla Nike', price: 180 };
@@ -16,9 +17,11 @@ function App() {
 
       <ItemListContainer />
 
+      <Promesas />
+
       <ListadoDeProductosLayout />
 
-      <Producto item={producto1} color={'coral'} cant={10} />
+      {/* <Producto item={producto1} color={'coral'} cant={10} /> */}
       {/* <Producto item={producto2} color={'lightblue'} cant={15} /> */}
       {/* <Producto item={producto3} color={'coral'} />   */}
 
