@@ -7,8 +7,8 @@ import Producto from './components/Producto';
 
 function App() {
   let producto1 = { id: 100, name: 'Zapatilla Nike', price: 180 };
-  let producto2 = { id: 101, name: 'Zapatilla Adidas', price: 150 };
-  let producto3 = { id: 102, name: 'Zapatilla Puma', price: 130 };
+  // let producto2 = { id: 101, name: 'Zapatilla Adidas', price: 150 };
+  // let producto3 = { id: 102, name: 'Zapatilla Puma', price: 130 };
 
   return (
     <div className="App">
@@ -19,8 +19,8 @@ function App() {
       <ListadoDeProductosLayout />
 
       <Producto item={producto1} color={'coral'} />
-      <Producto item={producto2} color={'lightblue'} />
-      <Producto item={producto3} color={'coral'} />  
+      {/* <Producto item={producto2} color={'lightblue'} consoleHolaMundo={consoleHolaMundo}/>
+      <Producto item={producto3} color={'coral'} consoleHolaMundo={consoleHolaMundo}/>   */}
 
       <Footer />
     </div>
