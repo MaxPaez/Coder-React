@@ -21,9 +21,9 @@ function App() {
 
       <ListadoDeProductosLayout />
 
-      {/* <Producto item={producto1} color={'coral'} cant={10} /> */}
-      {/* <Producto item={producto2} color={'lightblue'} cant={15} /> */}
-      {/* <Producto item={producto3} color={'coral'} />   */}
+      {/* <Producto item={producto1} color={'coral'} cant={0} /> */}
+      {/* <Producto item={producto2} color={'lightblue'} cant={0} /> */}
+      {/* <Producto item={producto3} color={'coral'} cant={0} />   */}
 
       <Footer />
     </div>

@@ -41,7 +41,7 @@ export default function Producto({ id, item, color, cant }) {
 
   return (
     <Container style={{ backgroundColor: color, marginTop: '20px', paddingTop: '1rem', maxWidth: '40%' }}>
-      <h1>Contador: {contador}</h1>
+      <h1>Contador: {contador + contador2}</h1>
       <button
         onClick={() => {
           //contador = contador + 1;
